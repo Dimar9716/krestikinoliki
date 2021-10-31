@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 public class HomeWork4 {
 
+
         public static int SIZE = 3;
         public static int DOTS_TO_WIN = 3;
         public static final char DOT_EMPTY = '•';
@@ -61,6 +62,8 @@ public class HomeWork4 {
         }
         public static void aiTurn() {
             int x, y;
+            Random rand = new Random();
+
             do {
                 x = rand.nextInt(SIZE);
                 y = rand.nextInt(SIZE);
@@ -110,4 +113,4 @@ public class HomeWork4 {
 
 
 
-}
+
